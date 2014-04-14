@@ -1,0 +1,30 @@
+{
+  "name": "nsq-to-stdout",
+  "version": "0.0.0",
+  "description": "quick peek into nsq topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "nsqs": "./bin/nsq-to-stdout.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hden/nsq-to-stdout.git"
+  },
+  "keywords": [
+    "nsq"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/nsq-to-stdout/issues"
+  },
+  "homepage": "https://github.com/hden/nsq-to-stdout",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "nsq.js": "^0.9.1",
+    "debug": "^0.8.0"
+  }
+}
